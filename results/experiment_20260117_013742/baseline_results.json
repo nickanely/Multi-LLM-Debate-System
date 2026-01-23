@@ -1,0 +1,1395 @@
+{
+  "single_shot": {
+    "gpt-4": [
+      {
+        "model_id": "gpt-4",
+        "problem_id": "math_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "math_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "math_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "math_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "math_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "physics_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "physics_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "physics_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "physics_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "physics_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "logic_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "logic_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "logic_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "logic_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "logic_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "game_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "game_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "game_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "game_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "game_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "math_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "physics_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "logic_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "math_007",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "game_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+      }
+    ],
+    "claude": [
+      {
+        "model_id": "claude",
+        "problem_id": "math_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "math_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "math_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "math_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "math_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "physics_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "physics_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "physics_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "physics_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "physics_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "logic_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "logic_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "logic_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "logic_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "logic_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "game_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "game_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "game_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "game_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "game_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "math_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "physics_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "logic_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "math_007",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "game_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      }
+    ],
+    "gemini": [
+      {
+        "model_id": "gemini",
+        "problem_id": "math_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "math_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "math_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "math_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "math_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "physics_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "physics_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "physics_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "physics_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "physics_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "logic_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "logic_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "logic_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "logic_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "logic_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "game_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "game_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "game_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "game_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "game_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "math_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "physics_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "logic_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "math_007",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "game_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      }
+    ]
+  },
+  "majority_vote": [
+    {
+      "problem_id": "math_001",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "math_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "math_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "math_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "math_002",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "math_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "math_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "math_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "math_003",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "math_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "math_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "math_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "math_004",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "math_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "math_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "math_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "math_005",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "math_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "math_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "math_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "physics_001",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "physics_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "physics_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "physics_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "physics_002",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "physics_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "physics_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "physics_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "physics_003",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "physics_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "physics_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "physics_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "physics_004",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "physics_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "physics_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "physics_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "physics_005",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "physics_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "physics_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "physics_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "logic_001",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "logic_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "logic_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "logic_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "logic_002",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "logic_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "logic_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "logic_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "logic_003",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "logic_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "logic_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "logic_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "logic_004",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "logic_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "logic_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "logic_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "logic_005",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "logic_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "logic_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "logic_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "game_001",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "game_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "game_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "game_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "game_002",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "game_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "game_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "game_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "game_003",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "game_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "game_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "game_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "game_004",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "game_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "game_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "game_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "game_005",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "game_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "game_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "game_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "math_006",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "math_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "math_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "math_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "physics_006",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "physics_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "physics_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "physics_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "logic_006",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "logic_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "logic_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "logic_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "math_007",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "math_007",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "math_007",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "math_007",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "game_006",
+      "answer": "ERROR",
+      "vote_count": 3,
+      "total_votes": 3,
+      "all_answers": [
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "game_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}"
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "game_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "game_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    }
+  ],
+  "accuracy": {
+    "single_shot": {
+      "gpt-4": 0.0,
+      "claude": 0.0,
+      "gemini": 0.0
+    },
+    "majority_vote": 0.0
+  }
+}

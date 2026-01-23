@@ -1,0 +1,15 @@
+{
+  "overall_accuracy": 0.6666666666666666,
+  "improvement_rate": 0.0,
+  "consensus_rate": 0.3333333333333333,
+  "judge_metrics": {
+    "total_disagreements": 4,
+    "judge_picked_correct": 2,
+    "judge_accuracy": 0.5
+  },
+  "per_solver_accuracy": {
+    "grok": 0.8333333333333334,
+    "gpt-4": 0.3333333333333333,
+    "gemini": 0.8333333333333334
+  }
+}

@@ -1,0 +1,3052 @@
+[
+  {
+    "problem_id": "math_001",
+    "problem": {
+      "problem_id": "math_001",
+      "category": "Mathematical/Logical Reasoning",
+      "question": "In how many ways can you tile a 3\u00d78 rectangle with 2\u00d71 dominoes?"
+    },
+    "timing": {
+      "role_assessment": 0.1958301067352295,
+      "solution_generation": 0.00011277198791503906,
+      "peer_review": 0.00019931793212890625,
+      "refinement": 0.0002281665802001953,
+      "judgment": 0.3708207607269287
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "math_002",
+    "problem": {
+      "problem_id": "math_002",
+      "category": "Mathematical/Logical Reasoning",
+      "question": "What is the sum of all positive integers n such that n^2 + n + 41 is a perfect square?"
+    },
+    "timing": {
+      "role_assessment": 0.23849821090698242,
+      "solution_generation": 0.00016117095947265625,
+      "peer_review": 6.508827209472656e-05,
+      "refinement": 6.890296936035156e-05,
+      "judgment": 0.2686910629272461
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "math_003",
+    "problem": {
+      "problem_id": "math_003",
+      "category": "Mathematical/Logical Reasoning",
+      "question": "A bag contains 5 red balls and 3 blue balls. If you draw 3 balls without replacement, what is the probability that you get exactly 2 red balls? Express as a simplified fraction."
+    },
+    "timing": {
+      "role_assessment": 0.19932103157043457,
+      "solution_generation": 7.295608520507812e-05,
+      "peer_review": 0.00010085105895996094,
+      "refinement": 0.00011181831359863281,
+      "judgment": 0.23719310760498047
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "math_004",
+    "problem": {
+      "problem_id": "math_004",
+      "category": "Mathematical/Logical Reasoning",
+      "question": "Find the last two digits of 7^2023."
+    },
+    "timing": {
+      "role_assessment": 0.19116592407226562,
+      "solution_generation": 4.982948303222656e-05,
+      "peer_review": 6.985664367675781e-05,
+      "refinement": 7.104873657226562e-05,
+      "judgment": 0.29352903366088867
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "math_005",
+    "problem": {
+      "problem_id": "math_005",
+      "category": "Mathematical/Logical Reasoning",
+      "question": "How many 4-digit numbers have digits that sum to 9?"
+    },
+    "timing": {
+      "role_assessment": 0.22129392623901367,
+      "solution_generation": 1.1920928955078125e-05,
+      "peer_review": 1.7881393432617188e-05,
+      "refinement": 2.002716064453125e-05,
+      "judgment": 0.22796297073364258
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "physics_001",
+    "problem": {
+      "problem_id": "physics_001",
+      "category": "Physics & Scientific Reasoning",
+      "question": "A ladder of length L leans against a frictionless vertical wall at an angle \u03b8 with the horizontal floor. What is the minimum coefficient of friction \u03bc between the ladder and the floor needed to prevent slipping? Express in terms of \u03b8."
+    },
+    "timing": {
+      "role_assessment": 0.2196521759033203,
+      "solution_generation": 1.5020370483398438e-05,
+      "peer_review": 2.09808349609375e-05,
+      "refinement": 2.3126602172851562e-05,
+      "judgment": 0.21509599685668945
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "physics_002",
+    "problem": {
+      "problem_id": "physics_002",
+      "category": "Physics & Scientific Reasoning",
+      "question": "A ball is thrown horizontally from the top of a 45m tall building with initial speed 20 m/s. How far from the base of the building does it land? (Use g = 10 m/s\u00b2)"
+    },
+    "timing": {
+      "role_assessment": 0.19319868087768555,
+      "solution_generation": 5.626678466796875e-05,
+      "peer_review": 7.605552673339844e-05,
+      "refinement": 8.678436279296875e-05,
+      "judgment": 0.4649658203125
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "physics_003",
+    "problem": {
+      "problem_id": "physics_003",
+      "category": "Physics & Scientific Reasoning",
+      "question": "Two identical springs with spring constant k are connected in series. What is the effective spring constant of the combination?"
+    },
+    "timing": {
+      "role_assessment": 0.19197487831115723,
+      "solution_generation": 5.0067901611328125e-05,
+      "peer_review": 6.890296936035156e-05,
+      "refinement": 8.392333984375e-05,
+      "judgment": 0.2950570583343506
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "physics_004",
+    "problem": {
+      "problem_id": "physics_004",
+      "category": "Physics & Scientific Reasoning",
+      "question": "A 2kg block slides down a frictionless incline of height 5m and then across a rough horizontal surface with coefficient of friction 0.4. How far does it travel on the horizontal surface before stopping? (Use g = 10 m/s\u00b2)"
+    },
+    "timing": {
+      "role_assessment": 0.21723508834838867,
+      "solution_generation": 4.291534423828125e-05,
+      "peer_review": 5.888938903808594e-05,
+      "refinement": 8.487701416015625e-05,
+      "judgment": 0.24155092239379883
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "physics_005",
+    "problem": {
+      "problem_id": "physics_005",
+      "category": "Physics & Scientific Reasoning",
+      "question": "An astronaut in orbit throws a ball. The ball orbits Earth and returns to the astronaut after exactly one orbit. If the orbital period is 90 minutes and the ball was thrown at 5 m/s relative to the astronaut, approximately how far away is the ball when it's furthest from the astronaut?"
+    },
+    "timing": {
+      "role_assessment": 0.23287677764892578,
+      "solution_generation": 4.00543212890625e-05,
+      "peer_review": 6.079673767089844e-05,
+      "refinement": 6.103515625e-05,
+      "judgment": 0.2852742671966553
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "logic_001",
+    "problem": {
+      "problem_id": "logic_001",
+      "category": "Logic Puzzles & Constraint Satisfaction",
+      "question": "On an island, there are three types of people: knights (always tell truth), knaves (always lie), and spies (can do either). You meet three people: A, B, C. A says: 'I am a knight.' B says: 'A is not a knight.' C says: 'B is the spy.' If there is exactly one of each type, who is the spy?"
+    },
+    "timing": {
+      "role_assessment": 0.18952131271362305,
+      "solution_generation": 8.296966552734375e-05,
+      "peer_review": 0.00010967254638671875,
+      "refinement": 0.00011992454528808594,
+      "judgment": 0.24082207679748535
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "logic_002",
+    "problem": {
+      "problem_id": "logic_002",
+      "category": "Logic Puzzles & Constraint Satisfaction",
+      "question": "You have 12 coins, one of which is counterfeit (either heavier or lighter than the rest). Using a balance scale exactly 3 times, can you always identify the counterfeit coin AND determine if it's heavier or lighter? Answer yes or no and briefly explain."
+    },
+    "timing": {
+      "role_assessment": 0.25110507011413574,
+      "solution_generation": 7.295608520507812e-05,
+      "peer_review": 9.584426879882812e-05,
+      "refinement": 0.00011014938354492188,
+      "judgment": 0.41931796073913574
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "logic_003",
+    "problem": {
+      "problem_id": "logic_003",
+      "category": "Logic Puzzles & Constraint Satisfaction",
+      "question": "Three boxes are labeled 'Apples', 'Oranges', and 'Mixed'. All labels are wrong. You can pick one fruit from one box. What's the minimum information needed to correctly label all boxes?"
+    },
+    "timing": {
+      "role_assessment": 0.24016904830932617,
+      "solution_generation": 8.511543273925781e-05,
+      "peer_review": 5.888938903808594e-05,
+      "refinement": 6.771087646484375e-05,
+      "judgment": 0.2961580753326416
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "logic_004",
+    "problem": {
+      "problem_id": "logic_004",
+      "category": "Logic Puzzles & Constraint Satisfaction",
+      "question": "Five houses in a row are painted different colors. The English person lives in the red house. The Spanish person owns a dog. The Norwegian lives in the first house. The green house is immediately to the right of the white house. The person in the green house drinks coffee. The person who smokes Winston owns a snail. The yellow house owner smokes Kools. The person in the middle house drinks milk. The Norwegian lives next to the blue house. The Chesterfield smoker lives next to the fox owner. The Kools smoker lives next to the horse owner. The Lucky Strike smoker drinks orange juice. The Japanese person smokes Parliaments. The Ukrainian drinks tea. Who owns the fish?"
+    },
+    "timing": {
+      "role_assessment": 0.2264389991760254,
+      "solution_generation": 4.506111145019531e-05,
+      "peer_review": 7.033348083496094e-05,
+      "refinement": 7.009506225585938e-05,
+      "judgment": 0.3166930675506592
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "logic_005",
+    "problem": {
+      "problem_id": "logic_005",
+      "category": "Logic Puzzles & Constraint Satisfaction",
+      "question": "A jailer tells 100 prisoners: Tomorrow I'll line you up and put a red or blue hat on each of you. Each prisoner will see all hats in front but not their own or those behind. Starting from the back, each must guess their own hat color. If they're wrong, they die. The prisoners can strategize tonight. What strategy maximizes guaranteed survivors?"
+    },
+    "timing": {
+      "role_assessment": 0.19921469688415527,
+      "solution_generation": 7.82012939453125e-05,
+      "peer_review": 0.00011229515075683594,
+      "refinement": 0.00011706352233886719,
+      "judgment": 0.26526904106140137
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "game_001",
+    "problem": {
+      "problem_id": "game_001",
+      "category": "Strategic Game Theory",
+      "question": "In a sealed-bid second-price auction (Vickrey auction), the highest bidder wins but pays the second-highest bid. If your true value for the item is $100, what should you bid?"
+    },
+    "timing": {
+      "role_assessment": 0.22661709785461426,
+      "solution_generation": 6.413459777832031e-05,
+      "peer_review": 4.410743713378906e-05,
+      "refinement": 4.100799560546875e-05,
+      "judgment": 0.3084249496459961
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "game_002",
+    "problem": {
+      "problem_id": "game_002",
+      "category": "Strategic Game Theory",
+      "question": "In the game of Nim with piles of 3, 5, and 7 objects, two players alternate removing any number of objects from a single pile. The player who takes the last object wins. Does the first or second player have a winning strategy?"
+    },
+    "timing": {
+      "role_assessment": 0.19644880294799805,
+      "solution_generation": 5.602836608886719e-05,
+      "peer_review": 7.081031799316406e-05,
+      "refinement": 7.772445678710938e-05,
+      "judgment": 0.2153329849243164
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "game_003",
+    "problem": {
+      "problem_id": "game_003",
+      "category": "Strategic Game Theory",
+      "question": "Two players each secretly choose a number from 1 to 3. If both choose the same number, player 1 pays player 2 that amount. If they differ by 1, player 2 pays player 1 $2. If they differ by 2, player 2 pays player 1 $3. What is the optimal mixed strategy for player 1?"
+    },
+    "timing": {
+      "role_assessment": 0.18945598602294922,
+      "solution_generation": 7.295608520507812e-05,
+      "peer_review": 9.799003601074219e-05,
+      "refinement": 0.00011014938354492188,
+      "judgment": 0.22999095916748047
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "game_004",
+    "problem": {
+      "problem_id": "game_004",
+      "category": "Strategic Game Theory",
+      "question": "In the Prisoner's Dilemma, if the game is repeated exactly 100 times (both players know this), what is the Nash equilibrium strategy?"
+    },
+    "timing": {
+      "role_assessment": 0.2041013240814209,
+      "solution_generation": 5.125999450683594e-05,
+      "peer_review": 7.891654968261719e-05,
+      "refinement": 8.702278137207031e-05,
+      "judgment": 0.3699328899383545
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "game_005",
+    "problem": {
+      "problem_id": "game_005",
+      "category": "Strategic Game Theory",
+      "question": "In an ultimatum game, player 1 proposes how to split $100 with player 2. If player 2 accepts, they split as proposed. If player 2 rejects, both get nothing. Assuming rational players, what should player 1 offer?"
+    },
+    "timing": {
+      "role_assessment": 0.1942908763885498,
+      "solution_generation": 3.314018249511719e-05,
+      "peer_review": 5.4836273193359375e-05,
+      "refinement": 5.91278076171875e-05,
+      "judgment": 0.30009984970092773
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "math_006",
+    "problem": {
+      "problem_id": "math_006",
+      "category": "Mathematical/Logical Reasoning",
+      "question": "What is the probability of getting at least one pair when dealt 5 cards from a standard 52-card deck? Express as a decimal rounded to 3 places."
+    },
+    "timing": {
+      "role_assessment": 0.2556760311126709,
+      "solution_generation": 3.719329833984375e-05,
+      "peer_review": 5.507469177246094e-05,
+      "refinement": 5.7220458984375e-05,
+      "judgment": 0.26703786849975586
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "physics_006",
+    "problem": {
+      "problem_id": "physics_006",
+      "category": "Physics & Scientific Reasoning",
+      "question": "A capacitor of 10\u03bcF is charged to 100V, then disconnected and connected to an uncharged 40\u03bcF capacitor. What is the final voltage across both capacitors?"
+    },
+    "timing": {
+      "role_assessment": 0.20121312141418457,
+      "solution_generation": 7.104873657226562e-05,
+      "peer_review": 9.489059448242188e-05,
+      "refinement": 0.00011301040649414062,
+      "judgment": 0.2737138271331787
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "logic_006",
+    "problem": {
+      "problem_id": "logic_006",
+      "category": "Logic Puzzles & Constraint Satisfaction",
+      "question": "There are 1000 lockers in a row, all closed. Person 1 toggles every locker. Person 2 toggles every 2nd locker. Person 3 toggles every 3rd locker, etc., up to person 1000. How many lockers are open at the end?"
+    },
+    "timing": {
+      "role_assessment": 0.1984241008758545,
+      "solution_generation": 5.1975250244140625e-05,
+      "peer_review": 7.510185241699219e-05,
+      "refinement": 7.987022399902344e-05,
+      "judgment": 0.3201169967651367
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "math_007",
+    "problem": {
+      "problem_id": "math_007",
+      "category": "Mathematical/Logical Reasoning",
+      "question": "What is the expected number of coin flips needed to get two consecutive heads?"
+    },
+    "timing": {
+      "role_assessment": 0.20174217224121094,
+      "solution_generation": 4.100799560546875e-05,
+      "peer_review": 6.198883056640625e-05,
+      "refinement": 6.508827209472656e-05,
+      "judgment": 0.26569390296936035
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  },
+  {
+    "problem_id": "game_006",
+    "problem": {
+      "problem_id": "game_006",
+      "category": "Strategic Game Theory",
+      "question": "In a beauty contest game, everyone picks a number from 0 to 100. The winner is whoever is closest to 2/3 of the average. What number should you pick?"
+    },
+    "timing": {
+      "role_assessment": 0.21984100341796875,
+      "solution_generation": 4.792213439941406e-05,
+      "peer_review": 7.104873657226562e-05,
+      "refinement": 7.700920104980469e-05,
+      "judgment": 0.37385010719299316
+    },
+    "role_assessments": [
+      {
+        "model_id": "gpt-4",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "claude",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      },
+      {
+        "model_id": "gemini",
+        "role_preferences": [
+          "Solver",
+          "Judge"
+        ],
+        "confidence_by_role": {
+          "Solver": 0.7,
+          "Judge": 0.5
+        },
+        "reasoning": "Default assessment due to error"
+      }
+    ],
+    "role_assignment": {
+      "judge": "gpt-4",
+      "solvers": [
+        "claude",
+        "gemini"
+      ]
+    },
+    "initial_solutions": [
+      {
+        "solver_id": "claude",
+        "reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "final_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "peer_reviews": [
+      {
+        "reviewer_id": "claude",
+        "solution_id": "gemini",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      },
+      {
+        "reviewer_id": "gemini",
+        "solution_id": "claude",
+        "strengths": [
+          "Unable to review"
+        ],
+        "weaknesses": [
+          "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        ],
+        "errors": [],
+        "overall_assessment": "flawed"
+      }
+    ],
+    "refined_solutions": [
+      {
+        "solver_id": "claude",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: AnthropicModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      },
+      {
+        "solver_id": "gemini",
+        "changes_made": [],
+        "refined_reasoning": "Error generating solution: GoogleModel.generate() got an unexpected keyword argument 'messages'",
+        "refined_answer": "ERROR",
+        "confidence": 0.0
+      }
+    ],
+    "judgment": {
+      "winner_solver_id": "claude",
+      "reasoning": "Default selection due to judge error: Error code: 400 - {'error': {'message': \"Invalid parameter: 'text.format' of type 'json_schema' is not supported with model version `gpt-4-turbo-preview`.\", 'type': 'invalid_request_error', 'param': 'text.format', 'code': None}}",
+      "confidence": 0.5
+    },
+    "final_answer": "ERROR"
+  }
+]

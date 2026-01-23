@@ -1,0 +1,1395 @@
+{
+  "single_shot": {
+    "gpt-4": [
+      {
+        "model_id": "gpt-4",
+        "problem_id": "math_001",
+        "answer": "153",
+        "confidence": 0.68,
+        "reasoning": "Let a_n be the number of ways to tile a 3\u00d7n rectangle with 2\u00d71 dominoes. If n is odd, a_n = 0. For even n, a_n satisfies the recurrence a_n = 4 a_{n-2} \u2212 a_{n-4}, which can be derived by examining the leftmost two columns and counting the valid local configurations (either filling those columns outright or using two offset L-shaped patterns, with overlaps corrected). With initial conditions a_0 = 1 (empty tiling) and a_2 = 3, we get: a_4 = 4\u00b7a_2 \u2212 a_0 = 12 \u2212 1 = 11, a_6 = 4\u00b7a_4 \u2212 a_2 = 44 \u2212 3 = 41, a_8 = 4\u00b7a_6 \u2212 a_4 = 164 \u2212 11 = 153."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "math_002",
+        "answer": "40",
+        "confidence": 0.92,
+        "reasoning": "Let n^2 + n + 41 = m^2 for some integer m. Multiply out to complete the square: 4n^2 + 4n + 164 = 4m^2. Since (2n+1)^2 = 4n^2 + 4n + 1, we get (2m)^2 - (2n+1)^2 = 163. Factor: (2m - (2n+1))(2m + (2n+1)) = 163. The number 163 is prime, so the two factors must be 1 and 163 (positive). Solve the system: 2m - (2n+1) = 1 and 2m + (2n+1) = 163. Adding gives 4m = 164 => m = 41. Subtracting gives 2n+1 = 81 => n = 40. Check: 40^2 + 40 + 41 = 1681 = 41^2. Thus the only positive integer n is 40, and the sum of all such n is 40."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "math_003",
+        "answer": "15/28",
+        "confidence": 0.92,
+        "reasoning": "Exact 2 red and 1 blue can occur in C(5,2) ways to choose reds and C(3,1) ways to choose blues. So favorable = C(5,2)*C(3,1) = 10*3 = 30. Total ways to draw any 3 from 8 = C(8,3) = 56. Probability = 30/56 = 15/28."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "math_004",
+        "answer": "43",
+        "confidence": 0.92,
+        "reasoning": "To get the last two digits, work modulo 100. Since 7^4 = 2401 \u2261 1 (mod 100), the powers of 7 modulo 100 cycle every 4. Compute 2023 mod 4 = 3, so 7^2023 \u2261 7^3 \u2261 343 \u2261 43 (mod 100). Therefore the last two digits are 43."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "math_005",
+        "answer": "165",
+        "confidence": 0.84,
+        "reasoning": "Let digits be a,b,c,d with a in [1..9], b,c,d in [0..9], and a+b+c+d=9. Set a' = a-1, so a'\u22650. Then a'+b+c+d = 8 with a',b,c,d\u22650. This is a stars-and-bars problem: number of nonnegative solutions to x1+x2+x3+x4=8 is C(8+4-1,4-1) = C(11,3) = 165. Since sum is 8, none can exceed 8, so digit upper bounds aren\u2019t violated. Therefore, 165 such 4-digit numbers exist."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "physics_001",
+        "answer": "\u03bc_min = (1/2) cot \u03b8",
+        "confidence": 0.71,
+        "reasoning": "Consider a ladder of length L leaning against a frictionless wall at angle \u03b8 to the floor. Contacts: bottom A on floor with normal N_A and friction F (to the right, since the wall pushes the ladder left), top B on wall with normal N_B (horizontal, to the left). Weight mg acts at the ladder\u2019s center (midpoint).\n\n1) Torque about A (to eliminate N_A and F):\n- Position of B: (L cos\u03b8, L sin\u03b8). Force at B: leftward with magnitude N_B.\n- Torque from N_B about A: N_B \u00b7 (L sin\u03b8) (counterclockwise).\n- Position of center: ((L/2) cos\u03b8, (L/2) sin\u03b8). Weight mg acts downward; torque: mg \u00b7 (L/2) cos\u03b8 (clockwise).\nSetting counterclockwise torque equal to clockwise torque:\nN_B L sin\u03b8 = mg (L/2) cos\u03b8  \u21d2  N_B = (mg/2) cot\u03b8.\n\n2) Horizontal and vertical force balances:\n- Horizontal: F (to the right) = N_B  \u21d2  F = N_B.\n- Vertical: N_A = mg.\n\n3) Friction condition: at impending slip, F = \u03bc N_A. Hence \u03bc_min = F / N_A = N_B / N_A = [(mg/2) cot\u03b8] / (mg) = (1/2) cot\u03b8.\n\n valid for 0 < \u03b8 < 90\u00b0.\n"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "physics_002",
+        "answer": "60 m from the base",
+        "confidence": 0.92,
+        "reasoning": "Given a horizontal throw from height h = 45 m with initial vertical velocity v_y0 = 0. Time to hit the ground from vertical motion: h = (1/2) g t^2 => t = sqrt(2h/g) = sqrt(2*45/10) = sqrt(9) = 3 s. Horizontal motion is at constant speed v_x = 20 m/s, so horizontal distance x = v_x * t = 20 * 3 = 60 m. Therefore, it lands 60 m from the base."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "physics_003",
+        "answer": "k_eff = k/2",
+        "confidence": 0.85,
+        "reasoning": "When two identical springs (each with constant k) are in series, the same force F passes through both. The extension of each spring is \u0394x = F/k. The total extension is \u0394x_total = \u0394x1 + \u0394x2 = 2F/k. The effective spring constant keff is defined by F = keff * \u0394x_total, so keff = F / (2F/k) = k/2."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "physics_004",
+        "answer": "12.5 m",
+        "confidence": 0.92,
+        "reasoning": "On the frictionless incline, potential energy mgh converts to kinetic energy: (1/2) m v^2 = m g h \u21d2 v^2 = 2 g h. With h = 5 m and g = 10 m/s^2, v = 10 m/s at the bottom. On the horizontal, friction provides deceleration a = \u03bc g = 0.4 \u00d7 10 = 4 m/s^2. Stopping distance s from v^2 = 2 a s with final velocity 0 gives s = v^2/(2a) = 100/(8) = 12.5 m. (Equivalent energy form: \u03bc m g s = m g h \u21d2 s = h/\u03bc = 5/0.4 = 12.5 m.)"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "physics_005",
+        "answer": "The maximum separation occurs halfway through the orbit (t = T/2). The relative motion yields R_max = 4 v_x(0) / n. With v_x(0) = 5 m/s and n = 2\u03c0 / T = 2\u03c0 / 5400 s \u2248 0.001163 s^-1,",
+        "confidence": 0.72,
+        "reasoning": "Model the relative motion in the Hill (RTN) frame for two objects in the same circular Earth orbit. Let n be the mean motion, n = 2\u03c0 / T, with T = 90 minutes = 5400 s. The Clohessy\u2013Wiltshire equations (for small separations, in the plane) are: x'' \u2212 2 n y' \u2212 3 n^2 x = 0 and y'' + 2 n x' = 0, where x is radial (outward) and y is along-track. The ball starts at the same position as the astronaut, so x(0) = y(0) = 0. The initial velocity of the ball relative to the astronaut is 5 m/s. To have the ball return to the astronaut after one orbit (t = T), the along-track component must be zero: v_y(0) = y'(0) = 0. Thus v_x(0) = 5 m/s, v_y(0) = 0. Solving the CW system (with these initial conditions) gives, for v_y(0) = 0:"
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "logic_001",
+        "answer": "There is no unique solution for who the spy is. The spy could be A, B, or C. Four consistent assignments exist: (A=Knight, B=Knave, C=Spy); (A=Knave, B=Knight, C=Spy); (A=Knave, B=Spy, C=Knight); (A=Spy, B=Knight, C=Knave).",
+        "confidence": 0.66,
+        "reasoning": "Assume there is exactly one Knight (truth-teller), one Knave (always lies), and one Spy (can say anything). There are 6 ways to assign roles to A,B,C. Check each assignment against the statements: Knights must tell truth, Knaves must lie, Spies have no restriction. The assignments that satisfy all statements are:\n1) A=Knight, B=Knave, C=Spy\n2) A=Knave, B=Knight, C=Spy\n3) A=Knave, B=Spy, C=Knight\n4) A=Spy, B=Knight, C=Knave\nIn cases 1 and 2 the spy is C; in case 3 the spy is B; in case 4 the spy is A. Hence the spy is not uniquely determined by the given information."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "logic_002",
+        "answer": "Yes. It is possible to identify the counterfeit coin and whether it is heavier or lighter in exactly 3 weighings using a standard 3-weighing strategy (e.g., weigh 1\u20134 vs 5\u20138; then adapt with 9\u201311 vs 1\u20133 or 1\u20132\u20135 vs 3\u20134\u20136 as needed to pinpoint the coin and its type).",
+        "confidence": 0.54,
+        "reasoning": "Yes. There are 24 possibilities (12 coins \u00d7 {heavier, lighter}) and 3 weighings yield 3^3 = 27 possible outcome patterns, enough to identify the counterfeit and whether it\u2019s heavier or lighter. A standard constructive plan uses three weighings to separate the cases:\n- W1: weigh coins 1\u20134 against 5\u20138.\n  - If balanced, the counterfeit is among 9\u201312. W2: weigh 9\u201311 against 1\u20133. If balanced, 12 is counterfeit (we then compare 12 with a genuine coin in W3}); if not, the heavier/lighter trio 9\u201311 contains the counterfeit and W3 identifies which one and its type.\n  - If W1 is unbalanced, follow with W2: weigh 1\u20132\u20135 against 3\u20134\u20136. Depending on the result, you narrow to a small set (typically three coins) and use W3 to determine exactly which coin and whether it\u2019s heavier or lighter (often by weighing two suspects against a genuine coin).\nThis scheme maps all 24 counterfeit scenarios to distinct outcomes in three weighings, so you can always identify the counterfeit and its nature. Therefore the answer is yes."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "logic_003",
+        "answer": "Minimum information needed: draw one fruit from the box labeled 'Mixed'. Depending on the result, you can deduce the correct labeling:\n\n- If you draw an Apple: L_M = Apples, L_O = Mixed, L_A = Oranges.\n- If you draw an Orange: L_M = Oranges, L_A = Mixed, L_O = Apples.\nEither way, one fruit is sufficient to relabel all boxes correctly.",
+        "confidence": 0.75,
+        "reasoning": "Since all labels are wrong, the box labeled 'Mixed' cannot contain Mixed fruit. It must contain only Apples or only Oranges. Drawing one fruit from this box reveals which one it contains, and then the other two boxes can be deduced uniquely because their labels cannot match their actual contents. If the drawn fruit is an Apple, the box labels must be: L_M -> Apples, L_O -> Mixed, L_A -> Oranges. If the drawn fruit is an Orange, the mapping must be: L_M -> Oranges, L_A -> Mixed, L_O -> Apples. In either case, one fruit is enough to relabel all boxes correctly."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "logic_004",
+        "answer": "The Japanese owns the fish.",
+        "confidence": 0.92,
+        "reasoning": "Set up houses 1-5 left to right. Norwegian in 1 and blue in 2. The green right of white constraint plus green drinks coffee implies Case A (white3/green4) fails due to color/ drink conflicts; thus Case B (white4, green5) remains. Then 3 must be red (English) and 1 must be yellow (leaving colors yellow-blue-red-white-green for 1-5). The yellow house has Kools, so house 1 is Kools, which forces house 2 to be the horse owner. Ukrainian drinks tea, so Ukrainian must be at 2 or 4; exploring Case B with Ukrainian at 2 (2=Ukrainian, tea) leads to 4 and 5 being Spanish and Japanese. Continuing constraints (Japanese smokes Parliaments; Spanish owns a dog; Lucky Strike drinks orange juice) and filling in remaining drinks/cigarettes yields a consistent solution: House 1: Norwegian, yellow, Kools, water, fox. House 2: Ukrainian, blue, Chesterfield, tea, horse. House 3: English, red, Winston, milk, snail. House 4: Spanish, white, Lucky Strike, orange juice, dog. House 5: Japanese, green, Parliaments, coffee, fish. Therefore the fish is owned by the Japanese."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "logic_005",
+        "answer": "99 prisoners are guaranteed to survive with the optimal strategy: the backmost prisoner encodes the parity of the red hats in front via his spoken color; every other prisoner deduces their own hat color from that parity and the hats they see ahead, guaranteeing 99 survivors.",
+        "confidence": 0.92,
+        "reasoning": "High-level summary of the optimal strategy. Map colors to bits (e.g., blue=0, red=1). The backmost prisoner (prisoner 100) computes the parity (sum mod 2) of the 99 hats in front and chooses his own color to encode that parity (e.g., say red if parity is 1, blue if parity is 0). This communicates the parity of the red hats among the 99 ahead. Each subsequent prisoner, moving forward, can deduce their own hat color using the parity information and the hats they can see in front of them, plus the fact that earlier spoken colors align with the actual hats (by induction, the earlier prisoners\u2019 guesses will be correct). Thus, all prisoners except the first can be guaranteed to guess correctly. Therefore, 99 prisoners are guaranteed to survive under this optimal strategy."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "game_001",
+        "answer": "Bid $100.",
+        "confidence": 0.85,
+        "reasoning": "In a Vickrey auction (sealed-bid, second-price), bidding your true value is a dominant strategy: you win if your bid is the highest and pay the second-highest bid. The price you pay is the second-highest bid, which cannot exceed your own bid. Therefore bidding your true value ($100) ensures you win iff the item is worth at least $100 and you pay at most $100. Bidding higher risks paying more than your value; bidding lower risks losing a worthwhile item."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "game_002",
+        "answer": "The first player has a winning strategy. A winning first move is to reduce the pile of size 3 to 2 (remove 1). The new piles are (2, 5, 7) with nim-sum 0, and from here the first player can maintain the zero nim-sum after every move by the second player, leading to a win.",
+        "confidence": 0.74,
+        "reasoning": "In Nim, the first player has a winning strategy iff the XOR (nim-sum) of all pile sizes is nonzero. Compute nim-sum for piles 3, 5, 7: 3 xor 5 = 6; 6 xor 7 = 1. Since 1 \u2260 0, the first player has a winning strategy.\nA concrete winning first move is to reduce the pile of size 3 to 2, because 3 xor 1 = 2 < 3. After this move the piles become 2, 5, 7, whose nim-sum is 2 xor 5 xor 7 = (2 xor 5) xor 7 = 7 xor 7 = 0. From a zero nim-sum position, the first player can respond to any second-player move to restore a zero nim-sum, thereby ensuring victory."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "game_003",
+        "answer": "P1's optimal mixed strategy: play 1 with probability 4/9, 2 with probability 7/27, and 3 with probability 8/27. The game value under this equilibrium is 26/27 (approximately 0.963).",
+        "confidence": 0.74,
+        "reasoning": "Form the payoff matrix for Player 1 (rows: P1's choices 1,2,3; columns: P2's choices 1,2,3):\n\n          P2:1     P2:2     P2:3\nP1:1     -1        2        3\nP1:2      2       -2        2\nP1:3      3        2       -3\n\nLet p = (p1, p2, p3) be Player 1's mixed strategy (p1+p2+p3=1).\nAgainst P2's pure actions, Player 1's expected payoff is:\n- f1 = -p1 + 2p2 + 3p3  (P2 plays 1)\n- f2 = 2p1 - 2p2 + 2p3  (P2 plays 2)\n- f3 = 3p1 + 2p2 - 3p3  (P2 plays 3)\n\nIn a zero-sum equilibrium, Player 1 wants to maximize the minimum of {f1, f2, f3}. The optimum occurs when all three are equal: f1 = f2 = f3. Solving the system with p1+p2+p3=1 gives p2 = (7/8)p3 and p1 = (3/2)p3. Using p1+p2+p3=1 yields p3 = 8/27, p2 = 7/27, p1 = 4/9.\nWith these p\u2019s, f1 = f2 = f3 = 26/27, so the value of the game is 26/27.\n\nTherefore, the optimal mixed strategy for Player 1 is (p1, p2, p3) = (4/9, 7/27, 8/27)."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "game_004",
+        "answer": "In the 100-round finite, known-horizon Prisoner's Dilemma, the Nash equilibrium (in the subgame-perfect sense) is that both players defect in every round. That is, the strategy profile is: Always Defect (D) in rounds 1 through 100 for both players.",
+        "confidence": 0.72,
+        "reasoning": "In a finitely repeated Prisoner's Dilemma with a known horizon, the last period has a standard one-shot PD payoff structure where defecting is a strictly dominant strategy (defecting yields a higher payoff than cooperating regardless of the other player's action). Therefore, in the last round both players defect. Knowing this, in the second-to-last round each player expects defecting in the last round, so defecting in the second-to-last round is a best response as well. Applying backward induction all the way to the first round, the unique subgame-perfect Nash equilibrium is for both players to defect in every round. While other non-credible Nash equilibria can exist with non-credible threats, the standard equilibrium concept for a finite horizon game yields Always Defect as the equilibrium strategy."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "game_005",
+        "answer": "Player 1 should offer $1 to Player 2 and keep $99 for themselves.",
+        "confidence": 0.78,
+        "reasoning": "In a standard ultimatum game with rational players, the responder (player 2) will accept any offer that gives them more than 0, since rejection yields 0 for both players. Knowing this, the proposer (player 1) maximizes their own payoff by giving player 2 the smallest positive amount and keeping the rest. With a $100 total and monetary units in dollars, the smallest positive offer is $1 to player 2, leaving $99 for player 1."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "math_006",
+        "answer": "0.493",
+        "confidence": 0.82,
+        "reasoning": "Compute the probability of at least one pair by complementary counting. No pair means all five cards have distinct ranks. Number of such hands: choose 5 distinct ranks from 13 and choose one of 4 suits for each rank: C(13,5) * 4^5 = 1287 * 1024 = 1,317,888. Total 5-card hands: C(52,5) = 2,598,960. So P(no pair) = 1,317,888 / 2,598,960 \u2248 0.5071. Therefore P(at least one pair) = 1 - 0.5071 \u2248 0.4929, which rounds to 0.493."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "physics_006",
+        "answer": "20 V",
+        "confidence": 0.85,
+        "reasoning": "Initial charge on the 10 \u03bcF capacitor: Q1 = C1 V1 = (10 \u03bcF)(100 V) = 1000 \u03bcC. The 40 \u03bcF capacitor is initially uncharged. When connected in parallel, total capacitance is C_total = 10 \u03bcF + 40 \u03bcF = 50 \u03bcF, and charge is conserved: Q_total_final = Q_total_initial = 1000 \u03bcC. Final common voltage Vf = Q_total_final / C_total = 1000 \u03bcC / 50 \u03bcF = 20 V."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "logic_006",
+        "answer": "31",
+        "confidence": 0.78,
+        "reasoning": "Each locker n is toggled once for every divisor of n (the d-th person toggles lockers that are multiples of d). Thus locker n is toggled a total number of times equal to the number of divisors of n. A number has an odd number of divisors if and only if it is a perfect square. Therefore, only perfect squares up to 1000 remain open. The largest square \u2264 1000 is 31^2 = 961 (32^2 = 1024 > 1000), so there are 31 such lockers."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "math_007",
+        "answer": "6",
+        "confidence": 0.85,
+        "reasoning": "We model as a two-state Markov process. Let E0 be the expected number of remaining flips starting from a state with no preceding head (start), and E1 be the expected number of remaining flips when the last flip was a Head (one consecutive head).\n- From state S0: we flip once. with probability 1/2 we get H and move to S1, with probability 1/2 we get T and stay in S0. So E0 = 1 + (1/2) E1 + (1/2) E0.\n- From state S1: we flip once. with probability 1/2 we get H and finish (0 more flips), with probability 1/2 we get T and revert to S0. So E1 = 1 + (1/2)*0 + (1/2) E0.\nSolve: E0 = 2 + E1 and E1 = 1 + (1/2) E0. Substitute E0 into E1: E1 = 1 + (1/2)(2 + E1) => E1 = 2 + (1/2) E1 => E1 = 4. Then E0 = 2 + 4 = 6.\nTherefore, the expected number of flips from the start is 6."
+      },
+      {
+        "model_id": "gpt-4",
+        "problem_id": "game_006",
+        "answer": "0",
+        "confidence": 0.75,
+        "reasoning": "High-level summary: Let n players. If the other players\u2019 average is a, your best response is to pick 2a/3 because you want to be closest to the target T = (2/3)a. In a Nash equilibrium, all players choose the same number x, so a = x and your best response would be 2x/3. For equilibrium, x must equal 2x/3, which implies x = 0. Hence the unique Nash equilibrium is 0. With common knowledge of rationality, players converge to this result, so the natural recommendation is to pick 0."
+      }
+    ],
+    "claude": [
+      {
+        "model_id": "claude",
+        "problem_id": "math_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "math_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "math_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "math_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "math_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "physics_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "physics_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "physics_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "physics_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "physics_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "logic_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "logic_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "logic_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "logic_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "logic_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "game_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "game_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "game_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "game_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "game_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "math_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "physics_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "logic_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "math_007",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "claude",
+        "problem_id": "game_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+      }
+    ],
+    "gemini": [
+      {
+        "model_id": "gemini",
+        "problem_id": "math_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "math_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "math_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "math_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "math_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "physics_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "physics_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "physics_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "physics_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "physics_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "logic_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "logic_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "logic_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "logic_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "logic_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "game_001",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "game_002",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "game_003",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "game_004",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "game_005",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "math_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "physics_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "logic_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "math_007",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      },
+      {
+        "model_id": "gemini",
+        "problem_id": "game_006",
+        "answer": "ERROR",
+        "confidence": 0.0,
+        "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+      }
+    ]
+  },
+  "majority_vote": [
+    {
+      "problem_id": "math_001",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "153",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "math_001",
+          "answer": "153",
+          "confidence": 0.85,
+          "reasoning": "Let a_n be the number of tilings of a 3\u00d7n rectangle with 2\u00d71 dominoes. No tilings exist for odd n, so a_n=0 when n is odd. For even n, a_n satisfies the recurrence a_n = 4 a_{n-2} \u2212 a_{n-4}, derived from a standard transfer-matrix/column-assembly analysis (consider the last two columns and the possible protruding configurations). Base values: a_0=1, a_2=3. Then compute: a_4 = 4\u00b7a_2 \u2212 a_0 = 11, a_6 = 4\u00b7a_4 \u2212 a_2 = 41, a_8 = 4\u00b7a_6 \u2212 a_4 = 153."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "math_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "math_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "math_002",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "40",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "math_002",
+          "answer": "40",
+          "confidence": 0.72,
+          "reasoning": "Let n^2 + n + 41 = m^2 for some integer m. Then m^2 \u2212 n^2 = n + 41, i.e. (m \u2212 n)(m + n) = n + 41. Set a = m \u2212 n, b = m + n, so ab = n + 41 with n = (b \u2212 a)/2. From these, b = (82 \u2212 a)/(2a \u2212 1). Since b > a > 0 and a, b have the same parity, we must have a \u2265 1 and 82 \u2212 a > 0. Also b > a implies (82 \u2212 a)/(2a \u2212 1) > a, which yields a^2 \u2264 41, so a \u2208 {1,2,3,4,5,6}. Check each: only a = 1 gives an integer b, namely b = 81. Then n = (81 \u2212 1)/2 = 40. Other a values do not yield integral b. Thus the unique positive n is 40."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "math_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "math_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "math_003",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "15/28",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "math_003",
+          "answer": "15/28",
+          "confidence": 0.85,
+          "reasoning": "We draw 3 without replacement from a bag with 5 red and 3 blue. To have exactly 2 red, we must choose 2 red from the 5 and 1 blue from the 3. Number of favorable outcomes = C(5,2)*C(3,1) = 10*3 = 30. Total outcomes = C(8,3) = 56. Probability = 30/56 = 15/28."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "math_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "math_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "math_004",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "43",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "math_004",
+          "answer": "43",
+          "confidence": 0.92,
+          "reasoning": "Work modulo 100. Note that 7^4 = 2401 \u2261 1 (mod 100), so powers of 7 mod 100 have period 4. Therefore 7^2023 \u2261 7^(2023 mod 4) \u2261 7^3 \u2261 343 \u2261 43 (mod 100)."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "math_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "math_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "math_005",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "165",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "math_005",
+          "answer": "165",
+          "confidence": 0.92,
+          "reasoning": "Let the digits be a,b,c,d with a\u2208{1,...,9}, b,c,d\u2208{0,...,9}, and a+b+c+d=9. Set a' = a-1 \u2265 0. Then a'+b+c+d = 8 with four nonnegative integers. Since the sum is 8, no digit can exceed 8, which is \u2264 9, so digit upper bounds are not restrictive. The number of nonnegative solutions is C(8+4-1,4-1) = C(11,3) = 165."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "math_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "math_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "physics_001",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "\u03bc_min = (1/2) cot \u03b8  (for 0 < \u03b8 < \u03c0/2)",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "physics_001",
+          "answer": "\u03bc_min = (1/2) cot \u03b8  (for 0 < \u03b8 < \u03c0/2)",
+          "confidence": 0.85,
+          "reasoning": "Free-body analysis of ladder: vertical forces give N = mg; horizontal forces give f = H (friction at floor balances wall reaction). Torque about the bottom: H L sin\u03b8 = (mg)(L/2) cos\u03b8 \u2192 H = (mg/2) cot\u03b8. At impending slip, f = \u03bcN, so \u03bc_min = f/N = H/(mg) = (1/2) cot\u03b8. Valid for 0 < \u03b8 < 90\u00b0 (\u03c0/2)."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "physics_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "physics_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "physics_002",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "60 meters",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "physics_002",
+          "answer": "60 meters",
+          "confidence": 0.92,
+          "reasoning": "Horizontal throw: horizontal motion has constant velocity v0x = 20 m/s; vertical motion is free fall with initial vertical velocity vy0 = 0. Time to hit ground t from height h with g downward: h = (1/2) g t^2 => t = sqrt(2h/g). With h = 45 m and g = 10 m/s^2, t = sqrt(2*45/10) = sqrt(9) = 3 s. Horizontal distance lands = v0x * t = 20 * 3 = 60 m."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "physics_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "physics_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "physics_003",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "k/2",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "physics_003",
+          "answer": "k/2",
+          "confidence": 0.88,
+          "reasoning": "For springs in series, the same force F acts through each spring. The total extension is the sum of the extensions: \u0394x = F/k1 + F/k2. The system behaves like a single spring with k_eff such that F = k_eff \u0394x, hence 1/k_eff = 1/k1 + 1/k2. With k1 = k2 = k, we get 1/k_eff = 1/k + 1/k = 2/k, so k_eff = k/2."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "physics_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "physics_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "physics_004",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "12.5 m",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "physics_004",
+          "answer": "12.5 m",
+          "confidence": 0.86,
+          "reasoning": "Energy conservation on the frictionless incline: m g h = 1/2 m v^2 => v^2 = 2 g h. With m=2 kg, g=10 m/s^2, h=5 m: v0 = sqrt(2*10*5) = sqrt(100) = 10 m/s. On the rough horizontal surface, kinetic friction \u03bc_k = 0.4 acts opposite motion. Normal force N = m g = 2*10 = 20 N, so friction F_f = \u03bc_k N = 0.4*20 = 8 N. Acceleration (deceleration) magnitude a = F_f/m = 8/2 = 4 m/s^2. Use v^2 = v0^2 - 2 a d to find stopping distance: 0 = 100 - 2*(4)*d => d = 100 / 8 = 12.5 m."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "physics_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "physics_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "physics_005",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "Approximately 17 kilometers.",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "physics_005",
+          "answer": "Approximately 17 kilometers.",
+          "confidence": 0.72,
+          "reasoning": "In a circular orbit, the relative motion of a second body (the ball) with respect to an observer (the astronaut) in the Clohessy\u2013Wiltshire (CW) frame is governed by linearized equations. If the ball is given an initial relative velocity \u0394v0 purely in the radial (outward) direction and the initial relative position is zero (they start at the same point), the CW solution yields the relative coordinates as functions of time with the property that the ball returns to the astronaut after one orbital period T, while the maximum separation occurs midway (T/2). Let T = 90 minutes = 5400 s and n = 2\u03c0/T be the mean motion. For a radial kick a = |\u0394v0| = 5 m/s and \u0394v0 perpendicular to radial (i.e., along-track component zero), the CW solution gives a maximal separation r_max = 4|a|/n (the derivation comes from maximizing r^2 = x^2 + y^2 with x(t) and y(t) given by the CW expressions under these initial conditions). The necessary mean motion is n = 2\u03c0/5400 s. Therefore:\n- n = 2\u03c0/5400 \u2248 0.0011635 s^-1\n- r_max = 4 \u00d7 5 / n \u2248 20 / 0.0011635 \u2248 1.72\u00d710^4 m \u2248 17 km\nThis corresponds to the ball being farthest from the astronaut roughly half an orbit after the throw. The assumption that the throw is purely radial is what ensures they meet again after one orbit (b \u2261 \u0394v_y0 = 0)."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "physics_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "physics_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "logic_001",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "There is no unique spy based on the statements. Four consistent scenarios exist: \n- A=Knight, B=Knave, C=Spy (spy = C)\n- A=Knave, B=Knight, C=Spy (spy = C)\n- A=Knave, B=Spy, C=Knight (spy = B)\n- A=Spy, B=Knight, C=Knave (spy = A)\nThus the spy could be A, B, or C depending on which scenario is true.",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "logic_001",
+          "answer": "There is no unique spy based on the statements. Four consistent scenarios exist: \n- A=Knight, B=Knave, C=Spy (spy = C)\n- A=Knave, B=Knight, C=Spy (spy = C)\n- A=Knave, B=Spy, C=Knight (spy = B)\n- A=Spy, B=Knight, C=Knave (spy = A)\nThus the spy could be A, B, or C depending on which scenario is true.",
+          "confidence": 0.66,
+          "reasoning": "With A, B, C exactly one Knight (truth-teller), one Knave (always lies), and one Spy (can either). A says 'I am a knight.' B says 'A is not a knight.' C says 'B is the spy.' Knights must tell the truth, knaves must lie, spies have no constraint. Enumerate all 6 assignments of {Knight, Knave, Spy} to (A,B,C) and keep only those where Knight statements are true and Knave statements are false; spies impose no constraint. The valid configurations are: 1) A=Knight, B=Knave, C=Spy; 2) A=Knave, B=Knight, C=Spy; 3) A=Knave, B=Spy, C=Knight; 4) A=Spy, B=Knight, C=Knave. In cases 1 and 2 the spy is C; in case 3 the spy is B; in case 4 the spy is A. Therefore the information given does not determine a unique spy."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "logic_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "logic_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "logic_002",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "Yes",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "logic_002",
+          "answer": "Yes",
+          "confidence": 0.75,
+          "reasoning": "Yes - there exists a strategy. Each balance weighing yields three outcomes, so three weighings give 3^3 = 27 possible result patterns. The counterfeit coin could be any of the 12 coins and could be heavier or lighter, for 12 \u00d7 2 = 24 possibilities. Since 27 > 24, it is information-theoretically possible to identify both the coin and whether it is heavier or lighter. A standard constructive approach (for example, starting with weighing 1\u20134 against 5\u20138, then proceeding with two more targeted weighings based on the outcome) yields a unique identification of the counterfeit coin and its nature within three weighings."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "logic_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "logic_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "logic_003",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "Minimum information needed: 1 fruit. Procedure: draw one fruit from the box labeled 'Mixed'.\n- If the fruit is Apple: final labeling is: Box 'Mixed' = Apples, Box 'Apples' = Oranges, Box 'Oranges' = Mixed.\n- If the fruit is Orange: final labeling is: Box 'Mixed' = Oranges, Box 'Apples' = Mixed, Box 'Oranges' = Apples.",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "logic_003",
+          "answer": "Minimum information needed: 1 fruit. Procedure: draw one fruit from the box labeled 'Mixed'.\n- If the fruit is Apple: final labeling is: Box 'Mixed' = Apples, Box 'Apples' = Oranges, Box 'Oranges' = Mixed.\n- If the fruit is Orange: final labeling is: Box 'Mixed' = Oranges, Box 'Apples' = Mixed, Box 'Oranges' = Apples.",
+          "confidence": 0.77,
+          "reasoning": "Choose one fruit from the box labeled 'Mixed'. Since all labels are wrong, that box cannot contain Mixed; it must contain only Apples or only Oranges. A single fruit reveals which: if you pick an Apple, that box is Apples-only; if you pick an Orange, that box is Oranges-only. With that information, the other two boxes must be the remaining two contents (one Apples-only and one Oranges-only with the labels all being wrong). This yields a unique consistent labeling for the remaining boxes in each case:\n- If the drawn fruit is Apple: Mixed box = Apples, Apples-labeled box = Oranges, Oranges-labeled box = Mixed.\n- If the drawn fruit is Orange: Mixed box = Oranges, Apples-labeled box = Mixed, Oranges-labeled box = Apples.\nThus one fruit draw suffices to determine all labels."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "logic_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "logic_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "logic_004",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "The Japanese owns the fish.",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "logic_004",
+          "answer": "The Japanese owns the fish.",
+          "confidence": 0.92,
+          "reasoning": "I cannot reveal my full internal chain-of-thought, but here is a concise, high-level outline of the deduction leading to a unique solution. \n\n- Model: five houses positions 1\u20135 left to right. Each house has a color, a nationality, a pet, a drink, and a cigarette. Apply all given constraints.\n- From Norwegian in house 1 and \u2018Norwegian next to blue house\u2019, deduce blue at house 2. The green house is immediately to the right of the white house, and the middle house (3) drinks milk. Case analysis of color placements shows Case A (white3\u2013green4) leads to contradictions with adjacent constraints; Case B (white4\u2013green5) remains viable.\n- In Case B, since house 5 is green, it drinks coffee. House 3 drinks milk, so colors for houses 1 and 3 must be yellow and red in some order, with the yellow house smoking Kools. This forces house 1 to be yellow and house 3 to be red; English must live in red (house 3).\n- With house 1 yellow, house 1 smokes Kools; thus house 2 must have the horse (Kools smoker lives next to the horse owner). This pins house 2\u2019s pet to be horse.\n- Assign nationalities: house 3 becomes English (red), house 1 Norwegian (given), house 2 becomes Ukrainian or Japanese, while houses 4 and 5 are the remaining two (Spanish and Japanese in some order).\n- Try 2 = Ukrainian (tea) and distribute remaining nationalities to 4 and 5 as Spanish and Japanese. This yields a consistent sub-scenario: house 4 = Spanish (white, dog) and house 5 = Japanese (green, coffee).\n- With cigarettes: house 1 = Kools, house 5 = Parliaments (Japanese), leaving Chesterfield and Winston for houses 2 and 3. The Winston smoker must own a snail; since house 2 already has horse, Winston must be house 3, and Chesterfield becomes house 2.\n- Remaining constraints force house 4 to have orange juice with Lucky Strike. This fixes beverages: house 2 Tea, house 3 Milk, house 4 Orange juice, house 5 Coffee, leaving water for house 1.\n- The Chesterfield smoker (house 2) must sit next to the fox owner; the only feasible placement is fox at house 1, leaving fish for house 5 (the only unassigned pet).\n- Check all constraints: all are satisfied with the final arrangement below.\n\nFinal arrangement (left to right by house position):\n1: Norwegian, Yellow, Water, Kools, Fox\n2: Ukrainian, Blue, Tea, Chesterfield, Horse\n3: English, Red, Milk, Winston, Snail\n4: Spanish, White, Orange juice, Lucky Strike, Dog\n5: Japanese, Green, Coffee, Parliaments, Fish\n\nConclusion: The fish is owned by the Japanese (house 5)."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "logic_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "logic_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "logic_005",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "99 prisoners are guaranteed to survive. Strategy: agree on parity (red=1, blue=0, target even). The backmost prisoner counts red hats among the 99 in front and says red if that count is odd, blue if even. This encodes the parity of the front 99 hats. Each next prisoner uses the parity announced by those behind and the hats they see ahead to deduce their own hat color uniquely and then announces it. Thus all but possibly the first survive for sure.",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "logic_005",
+          "answer": "99 prisoners are guaranteed to survive. Strategy: agree on parity (red=1, blue=0, target even). The backmost prisoner counts red hats among the 99 in front and says red if that count is odd, blue if even. This encodes the parity of the front 99 hats. Each next prisoner uses the parity announced by those behind and the hats they see ahead to deduce their own hat color uniquely and then announces it. Thus all but possibly the first survive for sure.",
+          "confidence": 0.73,
+          "reasoning": "This is the classic two-color hat puzzle. Agree beforehand on a mapping red=1, blue=0 and fix a target parity P (usually even, i.e., 0). The backmost prisoner (who sees 99 hats) counts the number of red hats among the 99 in front, call this s (mod 2). He announces the color corresponding to s (red if s is odd, blue if s is even). That spoken color encodes the parity of the 99 hats in front. Each subsequent prisoner then uses the parity announced by those behind plus the colors of the hats he can see in front to deduce his own hat color uniquely: if the number of red hats among the hats in front he sees is t (mod 2), he computes his hat color as a = s xor t (where s is the parity encoded by the previously spoken color(s)) and announces that. Repeating this, every prisoner except the first can determine their own color with certainty. Therefore, at least 99 survivors are guaranteed (the first speaker may die, depending on his actual hat)."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "logic_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "logic_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "game_001",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "$100",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "game_001",
+          "answer": "$100",
+          "confidence": 0.79,
+          "reasoning": "In a Vickrey (sealed-bid second-price) auction, the winner pays the second-highest bid. Your own bid only affects whether you win; the price you pay (if you win) is determined by others\u2019 bids, not your bid. Therefore bidding your true value is a dominant strategy: you never pay more than your value, and you maximize your payoff by winning when the item\u2019s value exceeds the second-highest bid. With a true value of 100, the optimal bid is 100."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "game_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "game_001",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "game_002",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "First player has a winning strategy. A winning opening move is to remove 1 object from the pile of 3, leaving piles of sizes 2, 5, and 7 (nim-sum becomes 0). From there, the first player can always move to a zero-nim-sum position and force a win.",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "game_002",
+          "answer": "First player has a winning strategy. A winning opening move is to remove 1 object from the pile of 3, leaving piles of sizes 2, 5, and 7 (nim-sum becomes 0). From there, the first player can always move to a zero-nim-sum position and force a win.",
+          "confidence": 0.78,
+          "reasoning": "In Nim, a position is losing for the next player iff the XOR (nim-sum) of the pile sizes is zero. If nim-sum \u2260 0, the next player has a winning move to make nim-sum zero and then mirror the opponent. Compute nim-sum: 3 xor 5 xor 7 = (3 xor 5) xor 7 = 6 xor 7 = 1 \u2260 0, so the first player has a winning strategy. A winning first move is to reduce a pile so that the nim-sum becomes zero. With total nim-sum 1, pick a pile A for which (A xor 1) < A. For A = 3, 3 xor 1 = 2 < 3, so reduce the 3-pile from 3 to 2 (remove 1). New piles: 2, 5, 7, whose nim-sum is 2 xor 5 xor 7 = 0. From then on, always move to a zero-nim-sum position to force a win."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "game_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "game_002",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "game_003",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "Optimal mixed strategy for player 1: play 1 with probability 4/9, 2 with probability 7/27, and 3 with probability 8/27.",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "game_003",
+          "answer": "Optimal mixed strategy for player 1: play 1 with probability 4/9, 2 with probability 7/27, and 3 with probability 8/27.",
+          "confidence": 0.92,
+          "reasoning": "Model as zero-sum. Payoff to P1 for (i,j) is: if i=j then -i; if |i-j|=1 then +2; if |i-j|=2 then +3. The 3x3 payoff matrix for P1 is:\nRow i=1: [-1, +2, +3]\nRow i=2: [+2, -2, +2]\nRow i=3: [+3, +2, -3]\nLet P1 mix (a,b,c) with a+b+c=1 (a,b,c\u22650).\nExpected payoff against P2's pure strategies:\nE1 = -a + 2b + 3c  (P2 plays 1)\nE2 = 2a - 2b + 2c  (P2 plays 2)\nE3 = 3a + 2b - 3c  (P2 plays 3)\nP1\u2019s goal is to maximize v with E1\u2265v, E2\u2265v, E3\u2265v.\nIn the optimum, typically all three are equal: E1=E2=E3. Solve the system with a+b+c=1:\nE1=E2 -> -3a + 4b + c = 0\nE2=E3 -> -a - 4b + 5c = 0\na+b+c=1\nSolving gives a = 4/9, b = 7/27, c = 8/27. The common value is v = E1 = E2 = E3 = 26/27."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "game_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "game_003",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "game_004",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "Both players defect in every round. The unique subgame-perfect Nash equilibrium for a 100-round Prisoner\u2019s Dilemma is that both players always defect in all 100 rounds.",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "game_004",
+          "answer": "Both players defect in every round. The unique subgame-perfect Nash equilibrium for a 100-round Prisoner\u2019s Dilemma is that both players always defect in all 100 rounds.",
+          "confidence": 0.71,
+          "reasoning": "In a finitely repeated Prisoner's Dilemma with a known horizon, backward induction applies. In the last (100th) round, defection strictly dominates cooperation, so both players defect. Given that outcome, in the 99th round the continuation value if you cooperate is to end up defecting in the last round anyway; again defection is at least as good as cooperation, so both defect in the 99th round as well. Repeating this argument backward through all rounds shows that in every round, defection is the best response to the other player\u2019s strategy. Therefore the unique subgame-perfect Nash equilibrium is that both players defect in every round (i.e., always defect in all 100 rounds). Note: there can be other non-credible Nash equilibria that involve cooperation with threats, but they are not subgame-perfect; the SPNE is always defect in all rounds."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "game_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "game_004",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "game_005",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "With whole-dollar increments: offer player 2 $1 and keep $99 for yourself. If cents are allowed, offer player 2 $0.01 and keep $99.99. In general, the equilibrium outcome is that player 2 gets the smallest positive amount and player 1 keeps the rest; e.g., (P1, P2) = (99, 1) dollars in whole dollars, or (99.99, 0.01) with cents.",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "game_005",
+          "answer": "With whole-dollar increments: offer player 2 $1 and keep $99 for yourself. If cents are allowed, offer player 2 $0.01 and keep $99.99. In general, the equilibrium outcome is that player 2 gets the smallest positive amount and player 1 keeps the rest; e.g., (P1, P2) = (99, 1) dollars in whole dollars, or (99.99, 0.01) with cents.",
+          "confidence": 0.75,
+          "reasoning": "In a standard ultimatum game, player 2 will accept any offer that gives them a positive amount, because if they reject they get nothing. Therefore, player 1 maximizes their own payoff by giving player 2 the smallest possible positive amount and keeping the remainder. If offers are in whole dollars, the smallest positive amount is $1 for player 2 (and $99 for player 1). If cents are allowed, the smallest positive amount would be $0.01 for player 2 (and $99.99 for player 1). More generally, player 1 can offer an arbitrarily small positive amount to player 2."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "game_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "game_005",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "math_006",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "0.493",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "math_006",
+          "answer": "0.493",
+          "confidence": 0.84,
+          "reasoning": "To find the probability of at least one pair in a 5-card hand, compute the complement: no pair means all five cards have distinct ranks. Count of no-pair hands = C(13,5) * 4^5 = 1287 * 1024 = 1,317,888. Total 5-card hands = C(52,5) = 2,598,960. So P(no pair) = 1,317,888 / 2,598,960 \u2248 0.5071. Therefore P(at least one pair) = 1 \u2212 P(no pair) \u2248 0.4929, which rounds to 0.493."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "math_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "math_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "physics_006",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "20 V",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "physics_006",
+          "answer": "20 V",
+          "confidence": 0.92,
+          "reasoning": "Initial charge on 10 \u03bcF: Q = C V = 10 \u03bcF \u00d7 100 V = 1000 \u03bcC. When connected to an uncharged 40 \u03bcF in parallel, total capacitance becomes C_total = 10 \u03bcF + 40 \u03bcF = 50 \u03bcF. Charge is conserved, so Q_total = 1000 \u03bcC. Final voltage V_final = Q_total / C_total = 1000 \u03bcC / 50 \u03bcF = 20 V. Check: Q1_final = 10 \u03bcF \u00d7 20 V = 200 \u03bcC; Q2_final = 40 \u03bcF \u00d7 20 V = 800 \u03bcC; total = 1000 \u03bcC, consistent."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "physics_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "physics_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "logic_006",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "31",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "logic_006",
+          "answer": "31",
+          "confidence": 0.85,
+          "reasoning": "Brief explanation: Locker i is toggled once for each divisor of i (since person k toggles multiples of k). Starting closed, it ends open iff the number of toggles d(i) is odd. d(i) is odd exactly when i is a perfect square (divisors come in pairs d and i/d, except when d = sqrt(i)). Therefore open lockers correspond to perfect squares \u2264 1000. The number of squares \u2264 1000 is floor(sqrt(1000)) = 31 (1^2 through 31^2)."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "logic_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "logic_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "math_007",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "6",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "math_007",
+          "answer": "6",
+          "confidence": 0.85,
+          "reasoning": "Let E0 be the expected number of flips to obtain HH starting from no previous flip (state S0). Let E1 be the expected number of flips to obtain HH given that the last flip was H (state S1, i.e., we currently have one consecutive head). From S0: E0 = 1 + (1/2)\u00b7E1 + (1/2)\u00b7E0 (one flip happens, then either move to S1 with probability 1/2 or stay in S0 with probability 1/2). This gives E0 = 2 + E1. From S1: E1 = 1 + (1/2)\u00b70 + (1/2)\u00b7E0 (one flip occurs; if it\u2019s H we\u2019re done; if it\u2019s T, we return to S0). So E1 = 1 + (1/2)\u00b7E0. Solving: E0 = 2 + [1 + (1/2)E0] \u21d2 E0 = 3 + (1/2)E0 \u21d2 (1/2)E0 = 3 \u21d2 E0 = 6."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "math_007",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "math_007",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    },
+    {
+      "problem_id": "game_006",
+      "answer": "ERROR",
+      "vote_count": 2,
+      "total_votes": 3,
+      "all_answers": [
+        "0",
+        "ERROR",
+        "ERROR"
+      ],
+      "individual_solutions": [
+        {
+          "model_id": "gpt-4",
+          "problem_id": "game_006",
+          "answer": "0",
+          "confidence": 0.72,
+          "reasoning": "In this game, each player wants to pick a number x to be closest to (2/3) times the average A of all guesses. For a fixed A, the best response is x = (2/3)A, since this makes the guess exactly equal to the target (within the 0-100 range). In a symmetric Nash equilibrium, all players choose the same number x*, so A = x*. The equilibrium condition requires x* = (2/3)A = (2/3)x*, which implies x*(1 - 2/3) = 0, hence x* = 0. Therefore the unique symmetric Nash equilibrium is 0. With iterative reasoning (common knowledge of rationality), players converge to this value in the limit. So the recommended choice is 0."
+        },
+        {
+          "model_id": "claude",
+          "problem_id": "game_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "AnthropicModel.generate() got an unexpected keyword argument 'messages'"
+        },
+        {
+          "model_id": "gemini",
+          "problem_id": "game_006",
+          "answer": "ERROR",
+          "confidence": 0.0,
+          "reasoning": "GoogleModel.generate() got an unexpected keyword argument 'messages'"
+        }
+      ]
+    }
+  ],
+  "accuracy": {
+    "single_shot": {
+      "gpt-4": 0.4,
+      "claude": 0.0,
+      "gemini": 0.0
+    },
+    "majority_vote": 0.0
+  }
+}
