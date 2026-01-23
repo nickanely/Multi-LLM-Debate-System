@@ -1,0 +1,153 @@
+[
+  {
+    "problem_id": "math_001",
+    "category": "Mathematical/Logical Reasoning",
+    "question": "In how many ways can you tile a 3×8 rectangle with 2×1 dominoes?",
+    "correct_answer": "153"
+  },
+  {
+    "problem_id": "logic_003",
+    "category": "Logic Puzzles & Constraint Satisfaction",
+    "question": "Three boxes are labeled 'Apples', 'Oranges', and 'Mixed'. All labels are wrong. You can pick one fruit from one box. What's the minimum information needed to correctly label all boxes?",
+    "correct_answer": "Pick from the box labeled 'Mixed'"
+  },
+  {
+    "problem_id": "logic_004",
+    "category": "Logic Puzzles & Constraint Satisfaction",
+    "question": "Five houses in a row are painted different colors. The English person lives in the red house. The Spanish person owns a dog. The Norwegian lives in the first house. The green house is immediately to the right of the white house. The person in the green house drinks coffee. The person who smokes Winston owns a snail. The yellow house owner smokes Kools. The person in the middle house drinks milk. The Norwegian lives next to the blue house. The Chesterfield smoker lives next to the fox owner. The Kools smoker lives next to the horse owner. The Lucky Strike smoker drinks orange juice. The Japanese person smokes Parliaments. The Ukrainian drinks tea. Who owns the fish?",
+    "correct_answer": "The German"
+  },
+    {
+    "problem_id": "logic_005",
+    "category": "Logic Puzzles & Constraint Satisfaction",
+    "question": "A jailer tells 100 prisoners: Tomorrow I'll line you up and put a red or blue hat on each of you. Each prisoner will see all hats in front but not their own or those behind. Starting from the back, each must guess their own hat color. If they're wrong, they die. The prisoners can strategize tonight. What strategy maximizes guaranteed survivors?",
+    "correct_answer": "99 prisoners can be guaranteed to survive"
+  },
+  {
+    "problem_id": "game_001",
+    "category": "Strategic Game Theory",
+    "question": "In a sealed-bid second-price auction (Vickrey auction), the highest bidder wins but pays the second-highest bid. If your true value for the item is $100, what should you bid?",
+    "correct_answer": "$100 (truthful bidding is the dominant strategy)"
+  },
+  {
+    "problem_id": "game_002",
+    "category": "Strategic Game Theory",
+    "question": "In the game of Nim with piles of 3, 5, and 7 objects, two players alternate removing any number of objects from a single pile. The player who takes the last object wins. Does the first or second player have a winning strategy?",
+    "correct_answer": "First player wins (XOR of 3,5,7 = 1 ≠ 0)"
+  },
+  {
+    "problem_id": "game_003",
+    "category": "Strategic Game Theory",
+    "question": "Two players each secretly choose a number from 1 to 3. If both choose the same number, player 1 pays player 2 that amount. If they differ by 1, player 2 pays player 1 $2. If they differ by 2, player 2 pays player 1 $3. What is the optimal mixed strategy for player 1?",
+    "correct_answer": "Mix uniformly: choose 1, 2, 3 each with probability 1/3"
+  },
+  {
+    "problem_id": "game_004",
+    "category": "Strategic Game Theory",
+    "question": "In the Prisoner's Dilemma, if the game is repeated exactly 100 times (both players know this), what is the Nash equilibrium strategy?",
+    "correct_answer": "Defect on every round (by backward induction)"
+  },
+  {
+    "problem_id": "game_005",
+    "category": "Strategic Game Theory",
+    "question": "In an ultimatum game, player 1 proposes how to split $100 with player 2. If player 2 accepts, they split as proposed. If player 2 rejects, both get nothing. Assuming rational players, what should player 1 offer?",
+    "correct_answer": "Offer $1 (or the minimum positive amount)"
+  },
+  {
+    "problem_id": "math_006",
+    "category": "Mathematical/Logical Reasoning",
+    "question": "What is the probability of getting at least one pair when dealt 5 cards from a standard 52-card deck? Express as a decimal rounded to 3 places.",
+    "correct_answer": "0.493"
+  },
+  {
+    "problem_id": "physics_006",
+    "category": "Physics & Scientific Reasoning",
+    "question": "A capacitor of 10μF is charged to 100V, then disconnected and connected to an uncharged 40μF capacitor. What is the final voltage across both capacitors?",
+    "correct_answer": "20V"
+  },
+  {
+    "problem_id": "logic_006",
+    "category": "Logic Puzzles & Constraint Satisfaction",
+    "question": "There are 1000 lockers in a row, all closed. Person 1 toggles every locker. Person 2 toggles every 2nd locker. Person 3 toggles every 3rd locker, etc., up to person 1000. How many lockers are open at the end?",
+    "correct_answer": "31"
+  },
+  {
+    "problem_id": "math_007",
+    "category": "Mathematical/Logical Reasoning",
+    "question": "What is the expected number of coin flips needed to get two consecutive heads?",
+    "correct_answer": "6"
+  },
+  {
+    "problem_id": "game_006",
+    "category": "Strategic Game Theory",
+    "question": "In a beauty contest game, everyone picks a number from 0 to 100. The winner is whoever is closest to 2/3 of the average. What number should you pick?",
+    "correct_answer": "0"
+  },
+  {
+    "problem_id": "physics_002",
+    "category": "Physics & Scientific Reasoning",
+    "question": "A ball is thrown horizontally from the top of a 45m tall building with initial speed 20 m/s. How far from the base of the building does it land? (Use g = 10 m/s²)",
+    "correct_answer": "60 meters"
+  },
+  {
+    "problem_id": "physics_003",
+    "category": "Physics & Scientific Reasoning",
+    "question": "Two identical springs with spring constant k are connected in series. What is the effective spring constant of the combination?",
+    "correct_answer": "k/2"
+  },
+  {
+    "problem_id": "physics_004",
+    "category": "Physics & Scientific Reasoning",
+    "question": "A 2kg block slides down a frictionless incline of height 5m and then across a rough horizontal surface with coefficient of friction 0.4. How far does it travel on the horizontal surface before stopping? (Use g = 10 m/s²)",
+    "correct_answer": "12.5 meters"
+  },
+  {
+    "problem_id": "physics_005",
+    "category": "Physics & Scientific Reasoning",
+    "question": "An astronaut in orbit throws a ball. The ball orbits Earth and returns to the astronaut after exactly one orbit. If the orbital period is 90 minutes and the ball was thrown at 5 m/s relative to the astronaut, approximately how far away is the ball when it's furthest from the astronaut?",
+    "correct_answer": "The ball stays close to the astronaut throughout the orbit (within meters)"
+  },
+  {
+    "problem_id": "logic_001",
+    "category": "Logic Puzzles & Constraint Satisfaction",
+    "question": "On an island, there are three types of people: knights (always tell truth), knaves (always lie), and spies (can do either). You meet three people: A, B, C. A says: 'I am a knight.' B says: 'A is not a knight.' C says: 'B is the spy.' If there is exactly one of each type, who is the spy?",
+    "correct_answer": "B is the spy"
+  },
+  {
+    "problem_id": "logic_002",
+    "category": "Logic Puzzles & Constraint Satisfaction",
+    "question": "You have 12 coins, one of which is counterfeit (either heavier or lighter than the rest). Using a balance scale exactly 3 times, can you always identify the counterfeit coin AND determine if it's heavier or lighter? Answer yes or no and briefly explain.",
+    "correct_answer": "Yes"
+  },
+  {
+    "problem_id": "math_002",
+    "category": "Mathematical/Logical Reasoning",
+    "question": "What is the sum of all positive integers n such that n^2 + n + 41 is a perfect square?",
+    "correct_answer": "40"
+  },
+  {
+    "problem_id": "math_003",
+    "category": "Mathematical/Logical Reasoning",
+    "question": "A bag contains 5 red balls and 3 blue balls. If you draw 3 balls without replacement, what is the probability that you get exactly 2 red balls? Express as a simplified fraction.",
+    "correct_answer": "15/28"
+  },
+  {
+    "problem_id": "math_004",
+    "category": "Mathematical/Logical Reasoning",
+    "question": "Find the last two digits of 7^2023.",
+    "correct_answer": "43"
+  },
+  {
+    "problem_id": "math_005",
+    "category": "Mathematical/Logical Reasoning",
+    "question": "How many 4-digit numbers have digits that sum to 9?",
+    "correct_answer": "165"
+  },
+  {
+    "problem_id": "physics_001",
+    "category": "Physics & Scientific Reasoning",
+    "question": "A ladder of length L leans against a frictionless vertical wall at an angle θ with the horizontal floor. What is the minimum coefficient of friction μ between the ladder and the floor needed to prevent slipping? Express in terms of θ.",
+    "correct_answer": "μ = cot(θ)/2"
+  }
+
+]
