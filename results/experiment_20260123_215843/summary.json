@@ -1,0 +1,21 @@
+{
+  "timestamp": "20260123_215843",
+  "num_problems": 25,
+  "num_models": 4,
+  "models": [
+    "gpt",
+    "claude",
+    "gemini",
+    "grok"
+  ],
+  "timing": {
+    "baselines_seconds": 896.354086,
+    "debate_seconds": 3867.14393
+  },
+  "accuracy": {
+    "debate_system": 0.57,
+    "best_single_shot": 0.52,
+    "majority_vote": 0.48
+  },
+  "improvement_over_best_single": 0.12
+}
